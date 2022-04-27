@@ -3,7 +3,7 @@
 
 let light = 'green'
 
-if (light == 'red') { 
+if ( light == 'red' ) { 
     alert ('something')
 } else {
     alert ('another thing')

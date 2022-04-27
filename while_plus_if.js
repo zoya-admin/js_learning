@@ -5,9 +5,9 @@ let a = -8
 let b = 51
 let s
 
-while (a+b < 100) {
+while ( a+b < 100 ) {
     s = a+b
-    if (s > 90) {
+    if ( s > 90 ) {
         console.log(a +"+"+ b +"="+ s)
     }
     a++
