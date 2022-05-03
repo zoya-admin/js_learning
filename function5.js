@@ -8,5 +8,5 @@ function min(a,b,c) {
 	}
 	return res
 }
-console.log( min(3,1,6))
-console.log( min(0,1,-1))
+document.writeln(  min(3,1,6) +"<br>" )
+document.writeln( min(0,1,-1) +"<br>" )
