@@ -1,6 +1,12 @@
+function give(){
+	let name = document.getElementById("user-name").value
+	document.getElementById("response").innerHTML = giveFlower(name)
+}
+
+
 function giveFlower( name ) {
 	
-	if ( "AOEUI".includes( name.charAt(0) ) ) {
+	if ( "aoeui".includes( name.charAt(0).toLowerCase() ) ) {
 		return name + " gets chamomile"
 	} else {
 		return name + " gets rose"
@@ -11,7 +17,7 @@ function giveFlower( name ) {
 
 }
 
-document.writeln(  giveFlower( "Alex" ) +"<br>" )
-document.writeln(  giveFlower( "Petr" ) +"<br>" )
-document.writeln(  giveFlower( "Andy" ) +"<br>" )
-document.writeln(  giveFlower( "Volodya" ) +"<br>" )
+//document.writeln(  giveFlower( "Alex" )    +"<br>" )
+//document.writeln(  giveFlower( "Petr" )    +"<br>" )
+//document.writeln(  giveFlower( "Andy" )    +"<br>" )
+//document.writeln(  giveFlower( "Volodya" ) +"<br>" )
